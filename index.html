@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홍길동 & 김우주 결혼합니다</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Noto Serif KR', serif;
+            background-color: #f7f6f2;
+            color: #4a4a4a;
+        }
+        .font-english {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .bg-soft-pink {
+            background-color: #faf6f5;
+        }
+        .border-gold {
+            border-color: #d4af37;
+        }
+        .text-gold {
+            color: #b8860b;
+        }
+    </style>
+</head>
+<body class="flex justify-center bg-gray-100 min-h-screen">
+
+    <!-- Mobile Frame Container -->
+    <div class="w-full max-w-md bg-white shadow-2xl relative overflow-hidden flex flex-col my-0 sm:my-6 sm:rounded-2xl">
+        
+        <!-- Main Header Section -->
+        <div class="relative text-center pt-10 pb-6 px-4 bg-soft-pink">
+            <p class="font-english tracking-widest text-sm text-gray-500 uppercase mb-2">Wedding Invitation</p>
+            <h1 class="text-2xl font-semibold tracking-wider text-gray-800">홍길동 <span class="text-xs text-pink-400 mx-1">♥</span> 김우주</h1>
+            <p class="text-xs text-gray-500 mt-3 tracking-widest">2027. 10. 09. SAT 12:00 PM</p>
+        </div>
+
+        <!-- Main Photo -->
+        <div class="w-full relative">
+            <img src="main.jpg" alt="메인 사진" class="w-full h-auto object-cover shadow-sm">
+        </div>
+
+        <!-- Invitation Message Section -->
+        <div class="py-12 px-6 text-center space-y-6">
+            <div class="inline-block border-b border-gray-300 pb-2">
+                <span class="font-english text-lg tracking-widest text-gold italic">Invitation</span>
+            </div>
+            
+            <p class="text-sm leading-relaxed text-gray-600 font-light">
+                평생을 함께하고 싶은 사람을 만났습니다.<br>
+                서로의 따뜻한 온기가 되어주며<br>
+                예쁘게 살아가겠습니다.<br><br>
+                저희 두 사람의 새로운 시작을 축복해 주시면<br>
+                더없는 기쁨으로 간직하겠습니다.
+            </p>
+
+            <div class="pt-4 border-t border-gray-100 flex justify-center items-center gap-6 text-sm">
+                <div>
+                    <span class="text-xs text-gray-400 block mb-1">신랑</span>
+                    <strong class="text-gray-800 font-medium">홍길동</strong>
+                </div>
+                <span class="text-gray-300">|</span>
+                <div>
+                    <span class="text-xs text-gray-400 block mb-1">신부</span>
+                    <strong class="text-gray-800 font-medium">김우주</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="bg-soft-pink py-8 px-6 text-center border-y border-stone-200/50">
+            <h2 class="text-xs font-semibold tracking-widest uppercase text-gray-500 mb-6">Contact</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center">
+                    <span class="text-xs text-gray-400 mb-1">신랑에게 연락하기</span>
+                    <span class="font-medium text-sm text-gray-700 mb-3">홍길동</span>
+                    <a href="tel:000-0000-0000" class="w-full py-1.5 bg-stone-100 text-stone-700 rounded-lg text-xs hover:bg-stone-200 transition flex items-center justify-center gap-1">
+                        <i class="fa-solid fa-phone text-[10px]"></i> 전화하기
+                    </a>
+                </div>
+                <div class="bg-white p-4 rounded-xl shadow-sm flex flex-col items-center">
+                    <span class="text-xs text-gray-400 mb-1">신부에게 연락하기</span>
+                    <span class="font-medium text-sm text-gray-700 mb-3">김우주</span>
+                    <a href="tel:000-0000-0000" class="w-full py-1.5 bg-rose-50 text-rose-600 rounded-lg text-xs hover:bg-rose-100 transition flex items-center justify-center gap-1">
+                        <i class="fa-solid fa-phone text-[10px]"></i> 전화하기
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="py-12 px-4 text-center">
+            <p class="font-english text-lg tracking-widest text-gold italic mb-1">Gallery</p>
+            <h2 class="text-xs text-gray-400 tracking-widest mb-8 uppercase">소중한 순간들</h2>
+            
+            <div class="grid grid-cols-2 gap-3">
+                <div class="overflow-hidden rounded-lg shadow-sm">
+                    <img src="결혼1.jpg" alt="갤러리 사진 1" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm">
+                    <img src="결혼2.jpg" alt="갤러리 사진 2" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm">
+                    <img src="결혼3.jpg" alt="갤러리 사진 3" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm">
+                    <img src="결혼4.jpg" alt="갤러리 사진 4" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                </div>
+                <div class="col-span-2 overflow-hidden rounded-lg shadow-sm mt-1">
+                    <img src="결혼5.jpg" alt="갤러리 사진 5" class="w-full h-56 object-cover hover:scale-105 transition duration-300">
+                </div>
+            </div>
+        </div>
+
+        <!-- Location Section -->
+        <div class="bg-soft-pink py-12 px-6 text-center border-t border-stone-200/50">
+            <p class="font-english text-lg tracking-widest text-gold italic mb-1">Location</p>
+            <h2 class="text-xs text-gray-400 tracking-widest mb-6 uppercase">오시는 길</h2>
+
+            <div class="text-gray-800 mb-6">
+                <p class="font-semibold text-lg">서울신라호텔</p>
+                <p class="text-xs text-gray-500 mt-1">서울특별시 중구 동호로 249</p>
+                <p class="text-xs text-stone-500 mt-3 font-medium">2027년 10월 9일 토요일 오후 12:00</p>
+            </div>
+
+            <!-- Kakao / Naver Map buttons -->
+            <div class="flex gap-2 justify-center mb-6">
+                <a href="https://map.kakao.com/?q=서울신라호텔" target="_blank" class="flex-1 py-2 px-3 bg-yellow-300 text-yellow-900 rounded-lg text-xs font-medium shadow-sm hover:bg-yellow-400 transition flex items-center justify-center gap-1.5">
+                    <i class="fa-solid fa-map-location-dot"></i> 카카오맵
+                </a>
+                <a href="https://map.naver.com/v5/search/서울신라호텔" target="_blank" class="flex-1 py-2 px-3 bg-green-500 text-white rounded-lg text-xs font-medium shadow-sm hover:bg-green-600 transition flex items-center justify-center gap-1.5">
+                    <i class="fa-solid fa-location-arrow"></i> 네이버지도
+                </a>
+            </div>
+
+            <div class="text-left bg-white p-4 rounded-xl text-xs space-y-3 text-gray-600 shadow-sm">
+                <div>
+                    <strong class="text-gray-800 block mb-1"> 지하철 안내</strong>
+                    <p>3호선 동대입구역 5번 출구 (도보 5분)</p>
+                </div>
+                <div>
+                    <strong class="text-gray-800 block mb-1"> 버스 안내</strong>
+                    <p>장충동.동대입구역 하차</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="py-8 text-center text-xs text-gray-400 bg-white">
+            <p>길동 & 우주의 결혼식에 초대합니다.</p>
+            <p class="mt-1 font-english">Thank you for sharing our special day.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
